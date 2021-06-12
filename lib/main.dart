@@ -1,4 +1,5 @@
 import 'package:elementary_math/Home.dart';
+import 'package:elementary_math/theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: appTheme,
       title: 'Tacos App',
       home: Home(),
     );

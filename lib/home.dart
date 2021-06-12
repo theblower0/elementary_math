@@ -1,6 +1,5 @@
 import 'dart:async';
-
-import 'package:elementary_math/menu.dart';
+import 'package:elementary_math/options.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -25,7 +24,7 @@ class _HomeState extends State<Home> {
 
   route() {
     Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context) => Menu()));
+        context, MaterialPageRoute(builder: (context) => Options()));
   }
 
   @override
